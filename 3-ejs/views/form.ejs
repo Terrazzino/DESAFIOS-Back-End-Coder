@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EJS Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+<body class="bg-black">
+    <div class="container mt-5 mx-auto bg-dark text-white p-4 rounded-3">
+        <h1>Agregue su Producto</h1>
+        <form action="/" method="post">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nombre del Producto</label>
+                <input type="text" class="form-control" id="nombre" name="nombre">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Precio</label>
+                <input type="number" class="form-control" id="precio" name="precio">
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Imagen del Producto</label>
+                <input type="url" class="form-control" id="imagen" name="imagen">
+            </div>
+            <div class="d-flex justify-content-evenly">
+                <button type="submit" class="btn btn-primary">Agregar</button>
+                <a class="btn btn-primary" href="http://localhost:8080/productos">Lista de Productos</a>
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>

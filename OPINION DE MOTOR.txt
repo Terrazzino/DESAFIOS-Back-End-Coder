@@ -1,0 +1,36 @@
+OBSERVACIONES:
+
+    Desde mi punto de visitas
+    podría decir que de los tres motores
+    sin dudas no trabajaría con EJS
+    ya que su sintaxis me resulta muy
+    compleja innecesariamente y esto lleva
+    a la confusion y es mas propenso a
+    cometer errores por ello.
+
+    En el caso de los otros dos motores
+    de plantilla opino que ambos tienen
+    sus cosas buenas:
+
+    -HANDLEBARS:
+        Tiene como ventaja su similitud con
+        HTML, por lo cual no se deben tener en cuenta
+        grandes cosas, eso lo hace sencillo
+
+    -PUG:
+        Es genial la reducción de código que
+        se genera gracias a su sintaxis y creo que
+        es esta característica su gran ventaja por
+        sobre el resto.
+        Si bien no es exactamente igual al estilo de
+        sintaxis de HTML es similar y sus diferencias
+        vale la pena aprenderlas para lograr un código
+        mas limpio y sencillo de interpretar
+
+_______________________________________________________
+
+
+CONCLUSION:
+
+    De los tres motores de plantillas elijo sin dudas Pug.
+    Vale la pena aprender a manejarlo bien.
